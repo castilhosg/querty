@@ -1,0 +1,63 @@
+Projeto integrador do módulo D (PI)
+
+-Criar um sistema (site), informativo relacionado a pandemia do covid19 ou tema livre.
+-O objetivo do sistema é informar as pessoas, sobre diversos assuntos, relacionados a cuidados e bem estar.
+Segue algumas informações para ser apresentadas no sistema:
+* Soluções e dicas para educação na pandemia
+* Soluções e dicas para saúde das pessoas na alimentação
+* Solucões e dicas para saúde das pessoas no esporte
+* Soluções e dicas para saúde das pessoas nos cuidados ao sair de casa, na sua residência e empresa ao qual trabalham.
+* Soluções e dicas para saúde dos animais
+* Soluções e dicas financeira pessoal durante a pandemia
+* Soluções e dicas financeira para as empresas durante a pandemia
+
+* Criar uma página de formulário de pesquisa (assunto da pesquisa é livre).
+A pesquisa pode ser perguntas objetivas, com respostas de sim ou não, multipla escolha, ou em text .
+Mínimo de 10 perguntas.
+
+Observação:
+* Caso o aluno optar pelo tema livre ou do covid, o sistema deve ter no mínimo 9 páginas (contando com a index e o formulário de pesquisa)
+* O sistema pode ser desenvolvido em HTML e CSS ou Bootstrap (para esse projeto, não será aceito a utilização do Wordpress)
+* Podem utilizar Javascript e Jquery
+...........................................
+Primeiro passo: Projetar o sistema
+ - Criar um fluxograma do sistema (a quantidade de telas e ligações entre elas);
+ - Coletar fontes de pesquisa com conteúdo em texto, pdf,links, imagem e vídeo);
+ - Projetar o esboço do sistema (estrutura do site (corpo), logotipo, nome, cores e etc).
+
+.............................................
+Segundo passo, desenvolver o sistema
+ - O sistema deve ser responsivo;
+ - Utilizar CSS para todo sistema;
+ - Todas as nóticias que serão utilizadas no sistema devem ser citadas
+Exemplo:
+Escrito por fulano, Site aaa 
+Terça, 09 de março de 2021 10:00
+
+Abaixo colocar título e reportagem
+
+Fonte: site x
+Terça, 09 de março de 2021 10:00
+
+Abaixo colocar título e reportagem
+..............................................
+Terceiro passo, testar o sistema
+
+ - Verificar todo sistema, links, imagens, vídeos, texto e responsividade.
+
+#########################################
+Entrega do projeto:
+
+* Prazo de entrega do sistema finalizado será no final do mês de maio
+*Durante o processo de desenvolvimento do projeto, será solicitado para o aluno enviar seu projeto para acompanhamento do professor.
+
+Recomendações:
+* Organize um tempo todos os dias para o projeto;
+* Utilize o tempo antes do início da aula;
+* Utilize os momentos quando as aulas da UC12 e Uc13, terminarem antes;
+* Utilize as aulas que serão destinadas para o desenvolvimento do projeto;
+* Utilize como base o projeto realizado na UC14, ou demais projetos disponibilizados pelo professor;
+* Não deixe o projeto para o final da UC, certamente vc não vai conseguir desenvolver ele;
+* Solicite ajuda dos colegas ou professor;
+* Reveja as aulas da UC14 em caso de dúvidas;
+* Dica mais importante, não compartilhe seu projeto com os demais colegas, para que não aconteça plágio (cópia) do trabalho.
