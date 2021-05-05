@@ -2,10 +2,11 @@
 
 body{
 
-    background:url("../img/bg1.jpg");
-	background-size: cover;
+    background:url("../img/bg1.jpg");	
+	background-size: cover;	
 	background-color: #2d2d2d;
 	
+	/*color: #ecf0f1; Muda a cor da letra*/
 
 }
 
@@ -16,8 +17,6 @@ html{
 }
 
 /*Header*/
-
-
 
 .topo_nav a{ /*Links hamburguer*/
 
@@ -45,57 +44,43 @@ html{
 	
 }
 
-/*Jumbotron*/
-
-#jumbo1{
+#her{
 	
-	background-image: url("../img/jumbo-her.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: white;
-	text-shadow: 5px 5px 10px #2d2d2d;
+	background-color: #E5E5E5;
 	border-style: solid;
-	border-width: 0.03em;
+	border-width: 0.2rem;
 	border-color: #2d2d2d;
-	
+	text-align: justify;
 }
 
-#jumbo1 hr{
-	
-	border-top: 0.1em solid #DFDFDF;
-	
-}
 
-.jumbotron a:link{
+#her a:link{
 	
 	text-decoration: none;
-	color: white;
-	text-shadow: 5px 5px 10px #2d2d2d;
+	text-decoration-color: black;
 	
 }
 
-.jumbotron a:visited {
+#her a:visited{
 	
 	text-decoration: none;
-	color: white;
-	text-shadow: 5px 5px 10px #2d2d2d;
+	text-decoration-color: black;
 	
 }
 
-.jumbotron a:hover {
+#her a:hover{
 	
-	color: #F5F5F5;
-	text-shadow: 5px 5px 10px grey;
-	
-}
-
-.jumbotron a:active {
-	
-	color: white;
-	text-shadow: 5px 5px 10px #2d2d2d;
+	text-decoration: none;
+	text-decoration-color: black;
 	
 }
 
+#her a:visited{
+	
+	text-decoration: none;
+	text-decoration-color: black;
+	
+}
 
 /*Scrolltop*/
 

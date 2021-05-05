@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML>
+<html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"/>
@@ -21,7 +21,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!--CSS Externo-->
-	<link rel="stylesheet" type="text/css" href="css/contato.css"/>
+	<link rel="stylesheet" type="text/css" href="css/herstory.css"/>
 	
 	<!--Biblioteca Font Awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -33,7 +33,7 @@
 	
 </head>
 <body>
-	
+
 	<header>
 	
 	  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary container-fluid">
@@ -65,7 +65,7 @@
 						
 						</li>
 						
-						<li class="nav-item">
+						<li class="nav-item active">
 						
 							<a class="nav-item nav-link px-3" href="reviews.html">Reviews</a>
 						
@@ -73,9 +73,7 @@
 						
 						<li class="nav-item dropdown">
 						
-							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop">
-								Recomendações
-							</a>
+							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop">Recomendações</a>
 							
 							<div class="dropdown-menu" href="#">
 								<a href="#" class="dropdown-item">Melhores Soundtracks</a>
@@ -89,9 +87,7 @@
 						
 						<li class="nav-item dropdown">
 						
-							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop2">
-								Guias/Tutoriais
-							</a>
+							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop2">Guias/Tutoriais</a>
 							
 							<div class="dropdown-menu" href="#">
 								<a href="#" class="dropdown-item text-black-50">Dicas - Animal Crossing</a>
@@ -115,15 +111,15 @@
 						
 						<li class="nav-item">
 						
-							<a class="nav-item nav-link active  px-3" href="contato.html">Contato</a>
+							<a class="nav-item nav-link px-3" href="contato.html">Contato</a>
 						
 						</li>
 					
 					</ul>
 					
-					<form class="form-inline ml-0 mr-0">
+					<form class="form-inline ml-0 mr-0"> <!--Problema com a navbar/barra de pesquisa-->
 					
-						<input class="form-control mr-2 ml-2" type="search" placeholder="Buscar...">
+						<input class="form-control mr-2 ml-2 w-100" type="search" placeholder="Buscar...">
 						
 						<button class="btn btn-dark" type="submit"><span class="fa fa-search"></span></button>
 					
@@ -139,34 +135,48 @@
 	
 <br/><br/>
 	
-	<div id="form_contato" class="container">
+	<article id="her" class="container">
 		
-		<p class="h1 px-2 pt-4">
-			Entre em Contato
-		</p>
-		<br/>
+			<p class="h1 px-3 pt-4">
+				
+				Her Story - Review
+				
+				<p class="h5 px-3">	
+				Um conto de fadas moderno
+				</p>
 		
-		<p class="px-2 pt-1" id="form-desc">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et. Integer feugiat diam at neque cursus lacinia.
-		</p>
-		<p class="px-2">
-			loremipsum@loremipsum.com
-		</p>
+				<footer class="blockquote-footer px-3">Escrito por Marcus Oliveira em <cite title="IGN Brasil"><a href="https://br.ign.com/her-story/13991/review/review-her-story" >IGN Brasil</a></cite></footer>
+				
+			</p>
 	
-		<fieldset class="h5 px-2 pt-4 pb-3">
-			<p>Nome: <input type="text" size="50" maxlength="40" name="nome" pattern="[a-zA-Z\s]+$" class="form-control"></p>
-			<p>Email: <input type="email" size="50" maxlength="40" class="form-control"></p>
-			<p>Telefone (Opcional): <input type="tel" size="38" maxlength="11" name="tel" placeholder="(00) 0-0000-0000" pattern="\(d{2})\d{1}-\d{4}-\d{4}" class="form-control"></p>
-			<p>Mensagem:</p> 						
-			<p><textarea name="mensagem" cols="50" rows="5" placeholder="Digite sua mensagem" class="form-control"></textarea></p>
-			<br><p><h4>Não sou um robô&nbsp;&nbsp;<input type="checkbox" name="verificacao"></h4></p>
-			<br><p><input type="submit" value="Enviar" class="form-control" id="bt_enviar"></p>
-			<p><input type="reset" value="Cancelar" class="form-control" id="bt_cancelar"></p>
-		</fieldset>
-		
-	</div>
+			<br/>
 	
-<br/><br/>
+			<div class="container">
+				<figure>
+					<img src="img/her1.webp" alt="capa do jogo 'Five Nights at Freddy's: Security Breach'" class="border border-dark mw-100 mh-100">
+					<figcaption><em></em></figcaption>
+				</figure>
+			</div>
+	
+			<br/>
+		
+				<p class="px-3 pb-4">
+				A cada ano que se passa, tornam-se mais borradas as margens que separam os jogos eletrônicos das outras formas de experiências digitais interativas. A diferença entre jogar um game e assistir a um filme interativo se torna, cada vez mais, mera questão semântica. O que buscamos, como jogadores, é sempre a mesma coisa: uma experiência divertida, marcante e inesquecível.
+				</p>
+	
+				<p class="px-3 pb-4">
+				Her Story, que uns irão chamar de jogo e outros de cinema interativo (apenas para fomentar as velhas discussões em sessões de comentários), é um ótimo exemplo de como uma experiência pode funcionar de maneira primorosa se equilibrando na linha tênue que divide nossos conceitos. O jogo independente de Sam Barlow poderia ser um filme simples ou um game maçante, mas prefere andar na corda bamba para nos fornecer algumas horas de uma experiência verdadeiramente inovadora e inteligente, que se aproveita de elementos interativos para nos contar sua trama de um modo cativante e envolvente.
+				</p>
+	
+				<div class="px-3 pb-4"> <!--Colocar no centro-->
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gaHw97l7-Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+	
+				<p class="px-3 pb-4">
+				Difícil comentar a narrativa de Her Story sem arriscar alguns spoilers (o game foi lançado em junho passado para PC, Mac e dispositivos iOS). É um jogo tão pautado naquilo que assistimos e na realização de pequenas descobertas que até mesmo uma palavra inocente nesta análise pode ser usada como atalho para abreviar a sua experiência. Como quero muito que você jogue o game, vou usar apenas a palavra que Her Story nos oferece desde seu princípio: assassinato.
+				</p>
+		
+	</article>
 	
 	<footer id="rodape" class="footer mt-auto py-3 container-fluid">
 		
@@ -180,10 +190,8 @@
 			
 			<div id="rodape-txt" class="col">
 			
-				<p class="px-3 pt-3">
-				
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et
-				
+				<p class="px-3 pt-3 text-white">	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus et nesciunt dolores blanditiis architecto consectetur vero inventore, eligendi necessitatibus amet! Nesciunt, laboriosam modi corporis nemo. Officia odit nisi doloremque neque!
 				</p>
 			
 			</div>
@@ -200,9 +208,9 @@
 	
 	<!--Scrolltop-->
 	<a href="#" id="scrolltopo" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
-
 	<!--Javascript-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>	
 	<script type="text/javascript" src="js/scrolltop.js"></script>
+
 </body>
 </html>
