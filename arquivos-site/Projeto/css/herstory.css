@@ -3,7 +3,7 @@
 body{
 
     background:url("../img/bg1.jpg");	
-	background-size: cover;	
+	background-size: contain;	
 	background-color: #2d2d2d;
 	
 	/*color: #ecf0f1; Muda a cor da letra*/
@@ -79,6 +79,12 @@ html{
 	
 	text-decoration: none;
 	text-decoration-color: black;
+	
+}
+
+#video{
+	
+	width:inherit; 
 	
 }
 

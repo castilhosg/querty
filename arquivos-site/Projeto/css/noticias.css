@@ -108,7 +108,7 @@ html{
 	text-align: justify;
 }
 
-#not_3, #not_4 img{
+#not_3 img{
 	
 	width: inherit;
 	
@@ -116,6 +116,12 @@ html{
 
 
 /*Mass Effect*/
+#not_4 img{
+	
+	width: inherit;
+	
+}
+
 #not_4{
 	
 	background-color: #E5E5E5;
