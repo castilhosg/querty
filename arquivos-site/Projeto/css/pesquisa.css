@@ -1,8 +1,12 @@
+/* CSS Document */
+
 body{
 
     background:url("../img/bg1.jpg");	
 	background-size: contain;	
 	background-color: #2d2d2d;
+	
+	/*color: #ecf0f1; Muda a cor da letra*/
 
 }
 
@@ -13,8 +17,6 @@ html{
 }
 
 /*Header*/
-
-
 
 .topo_nav a{ /*Links hamburguer*/
 
@@ -42,93 +44,15 @@ html{
 	
 }
 
-/*Notícias*/
 
-/*FNAF*/
-#not_1{
+#pesquisa{
 	
 	background-color: #E5E5E5;
 	border-style: solid;
 	border-width: 0.2rem;
 	border-color: #2d2d2d;
 	text-align: justify;
-}
-
-/* )): */ 
-
-#not_1 a:link{
 	
-	text-decoration: none;
-	text-decoration-color: black;
-	
-}
-
-#not_1 a:visited{
-	
-	text-decoration: none;
-	text-decoration-color: black;
-	
-}
-
-#not_1 a:hover{
-	
-	text-decoration: none;
-	text-decoration-color: black;
-	
-}
-
-#not_1 a:visited{
-	
-	text-decoration: none;
-	text-decoration-color: black;
-	
-}
-
-/* )): */
-
-
-/*Cyberpunk*/
-#not_2{
-	
-	background-color: #E5E5E5;
-	border-style: solid;
-	border-width: 0.2rem;
-	border-color: #2d2d2d;
-	text-align: justify;
-}
-
-
-/*Among Us*/
-#not_3{
-	
-	background-color: #E5E5E5;
-	border-style: solid;
-	border-width: 0.2rem;
-	border-color: #2d2d2d;
-	text-align: justify;
-}
-
-#not_3 img{
-	
-	width: inherit;
-	
-}
-
-
-/*Mass Effect*/
-#not_4 img{
-	
-	width: inherit;
-	
-}
-
-#not_4{
-	
-	background-color: #E5E5E5;
-	border-style: solid;
-	border-width: 0.2rem;
-	border-color: #2d2d2d;
-	text-align: justify;
 }
 
 
