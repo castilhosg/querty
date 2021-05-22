@@ -2,7 +2,7 @@
 body{
 
     background:url("../img/bg1.jpg");	
-	background-size: cover;	
+	background-size: contain;	
 	background-color: #2d2d2d;
 	
 	/*color: #ecf0f1; Muda a cor da letra*/
@@ -43,6 +43,13 @@ html{
 	
 }
 
+.navbar-custom{
+	
+	background-color: #2d2d2d;
+	
+}
+
+
 /*Carrossel*/
 
 #leg1, #leg2, #leg3, #leg4{
@@ -76,7 +83,7 @@ html{
     background-color: #2d2d2d;
 	border-style: solid;
 	border-width: 0.1rem;
-	border-color: #6c757d;
+	border-color: #4E4E4E;
 }
 
 .js .cd-top--fade-out {
@@ -115,7 +122,7 @@ html{
 
 #rodape{
 
-    background-color: #6c757d;
+    background-color: #2d2d2d;
 
 }
 

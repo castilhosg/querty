@@ -44,6 +44,12 @@ html{
 	
 }
 
+.navbar-custom{
+	
+	background-color: #2d2d2d;
+	
+}
+
 #her{
 	
 	background-color: #E5E5E5;
@@ -104,7 +110,7 @@ html{
     background-color: #2d2d2d;
 	border-style: solid;
 	border-width: 0.1rem;
-	border-color: #6c757d;
+	border-color: #4E4E4E;
 }
 
 .js .cd-top--fade-out {
@@ -143,7 +149,7 @@ html{
 
 #rodape{
 
-    background-color: #6c757d;
+    background-color: #2d2d2d;
 
 }
 

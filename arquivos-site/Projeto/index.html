@@ -36,7 +36,7 @@
 
 	<header>
 	
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary container-fluid">
+	  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom container-fluid">
 			
 			<div class="container-fluid">
 			
@@ -65,7 +65,7 @@
 						
 						</li>
 						
-						<li class="nav-item">
+						<li class="nav-item dropdown">
 						
 							<a class="nav-item nav-link px-3" href="reviews.html">Reviews</a>
 						
@@ -73,14 +73,13 @@
 						
 						<li class="nav-item dropdown">
 						
-							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop">Recomendações</a>
+							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop">RPG</a>
 							
 							<div class="dropdown-menu" href="#">
-								<a href="#" class="dropdown-item">Melhores Soundtracks</a>
-								<a href="#" class = "dropdown-item">Quizzes</a>
-								<a href="#" class="dropdown-item">Top 10 jogos indie</a>
-								<a href="#" class = "dropdown-item">Free-to-plays</a>
-								<a href="#" class = "dropdown-item">Jogos grátis e com desconto</a>
+								<a href="#" class="dropdown-item">Por onde começar?</a>
+								<a href="#" class = "dropdown-item">10 RPGs de mesa de graça</a>
+								<a href="#" class="dropdown-item">Como jogar RPG de mesa online?</a>
+								<a href="#" class = "dropdown-item">Sistemas mais jogados</a>
 							</div>
 						
 						</li>
@@ -117,9 +116,10 @@
 					
 					</ul>
 					
-					<form class="form-inline ml-0 mr-0"> <!--Problema com a navbar/barra de pesquisa-->
+					<form class="form-inline pl-0 pr-0 min-w-100"> 
+					<!-- Problema com a navbar/barra de pesquisa )): -->
 					
-						<input class="form-control mr-2 ml-2 w-100" type="search" placeholder="Buscar...">
+						<input class="form-control pr-2 pl-2 " type="search" placeholder="Buscar...">
 						
 						<button class="btn btn-dark" type="submit"><span class="fa fa-search"></span></button>
 					
@@ -133,9 +133,9 @@
 	
 	</header>
 	
-<br/>
-	
-	<!--Banner Carrossel-->
+<br/><br/>
+
+	<!--Banner Carrossel // Versão p/ Mobile??--> 
 	<div id="carrossel" class="carousel slide" data-ride="carousel">
 		
 		<ol class="carousel-indicators">
@@ -199,15 +199,133 @@
 
 <br/><br/>
 	
-	<div id="videos">
 	
+	<div class="row pb-5">
+	
+		<div class="col-sm-4">
 		
-		
-		<p>
-		
+			<div class="card text-justify">
 			
+				<img src="img/tape.png" alt="" class="card-img-top w-100 h-100">
+				
+				<div class="card-body">
+
+					<h4 class="card-title">Gone Home</h4>
+
+					<h6 class="card-subtitle pb-2 text-muted">Uma viagem intimista pelos turbulentos anos 90</h6>
+
+					<p class="card-text">Alguns jogos conseguem realizar a prodigiosa façanha de fazer com que você esqueça que, de fato, está “jogando” algo. Tornam-se uma viagem intimista, conforme o fazem se esquecer de que aquele mundo não é o seu...</p>
+					
+					<a href="#" class="card-link btn btn-dark btn-sm">Leia Mais</a>
+				
+				</div>
+			
+			</div>
 		
-		</p>
+		</div>
+		
+		<div class="col-sm-4">
+		
+			<div class="card">
+			
+				<div class="card-body">
+				
+					<h4 class="card-title">Repellat illo</h4>
+					
+					<h6 class="card-subtitle pb-2 text-muted">Numquam inventore veniam deserunt, nobis minus placeat.</h6>
+
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate facilis mollitia repellat illo, incidunt explicabo tenetur ea.</p>
+					
+					<a href="#" class="card-link btn btn-dark btn-sm">Leia Mais</a>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		<div class="col-sm-4">
+		
+			<div class="card">
+			
+				<div class="card-body">
+					
+					<h4 class="card-title">Repellat illo</h4>
+					
+					<h6 class="card-subtitle pb-2 text-muted">Numquam inventore veniam deserunt, nobis minus placeat.</h6>
+
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate facilis mollitia repellat illo, incidunt explicabo tenetur ea.</p>
+					
+					<a href="#" class="card-link btn btn-dark btn-sm">Leia Mais</a>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+	
+	</div> 
+	
+	
+	<div class="container-fluid bg-light">
+	
+		<div class="row">
+		
+			<div class="col-4">
+			
+				<p class="h2 text-center">Em alta</p>
+				<hr/>
+				
+				<ol> <!--Porra-->	
+					<li>
+						<a href="">Mass Effect 5: Tudo que sabemos até agora</a> <!--Trocar a bosta da cor dos link de uma vez-->
+						
+					</li>
+					
+					<br/>
+					
+					<li>
+						<a href="">The Lion's Song está gratuíto para PC</a>
+					</li>
+					
+					<br/>
+					
+					<li>
+						<a href="">Lorem ipsum</a>
+					</li>
+					
+					<br/>
+					
+					<li>
+						<a href="">Ipsum lorem</a>
+					</li>
+				</ol>
+			
+			</div>
+			
+			<div class="col-8">
+			
+				<div class="card text-justify">
+			
+				<img src="img/tape.png" alt="" class="card-img w-100 h-100"> <!--Imagem menor-->
+				
+					<div class="card-img-overlay" id="back-card"> <!--Colocar um background semi-transparente na frente do texto-->
+
+						<h4 class="card-title">Lorem Ipsum</h4>
+
+						<h6 class="card-subtitle pb-2 text-muted">Uma viagem intimista pelos turbulentos anos 90</h6>
+
+						<p class="card-text">Alguns jogos conseguem realizar a prodigiosa façanha de fazer com que você esqueça que, de fato, está “jogando” algo. Tornam-se uma viagem intimista, conforme o fazem se esquecer de que aquele mundo não é o seu...</p>
+
+						<div class="text-center"><a href="#" class="card-link btn btn-dark btn-sm">Leia Mais</a></div>
+				
+					</div>
+			
+				</div>
+			
+			</div>
+		
+		</div>
 	
 	</div>
 	

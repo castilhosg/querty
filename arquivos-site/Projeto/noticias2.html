@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE HTML>
+<html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"/>
@@ -21,7 +21,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!--CSS Externo-->
-	<link rel="stylesheet" type="text/css" href="css/contato.css"/>
+	<link rel="stylesheet" type="text/css" href="css/noticias.css"/>
 	
 	<!--Biblioteca Font Awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -61,7 +61,7 @@
 						
 						<li class="nav-item">
 						
-							<a class="nav-item nav-link px-3 " href="noticias.html">Notícias</a>
+							<a class="nav-item nav-link active px-3 " href="noticias.html">Notícias</a>
 						
 						</li>
 						
@@ -81,7 +81,7 @@
 								<a href="#" class="dropdown-item">Como jogar RPG de mesa online?</a>
 								<a href="#" class = "dropdown-item">Sistemas mais jogados</a>
 							</div>
-						
+							
 						</li>
 						
 						<li class="nav-item dropdown">
@@ -112,7 +112,7 @@
 						
 						<li class="nav-item">
 						
-							<a class="nav-item nav-link active  px-3" href="contato.html">Contato</a>
+							<a class="nav-item nav-link px-3" href="contato.html">Contato</a>
 						
 						</li>
 					
@@ -136,48 +136,40 @@
 	
 <br/><br/>
 	
-	<div id="form_contato" class="container ">
-		
-		<p class="h1 px-2 pt-4">
-			Entre em Contato
-		</p>
-		<br/>
-		
-		<p class="px-2 pt-1" id="form-desc">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et. Integer feugiat diam at neque cursus lacinia.
-		</p>
-		<p class="px-2">
-			loremipsum@loremipsum.com
-		</p>
+	<div class="container-fluid-fluid">
 	
-		<form action="../Projeto/php/contatoForm.php" method="post" class="h5 px-2 pt-4 pb-3">
-			<p>Nome: <input type="text" size="50" maxlength="50" name="nome" pattern="[a-zA-Z\s]+$" class="form-control" required></p>
-			
-			<p>Email: <input type="email" size="50" maxlength="40" name="email" class="form-control" required></p>
-			
-			<p>Telefone (Opcional): <input type="telefone" size="38" maxlength="11" name="tel" placeholder="(00) 0-0000-0000" pattern="\(d{2})\d{1}-\d{4}-\d{4}" class="form-control"></p>
-			
-			<p>Mensagem:</p> 						
-			<p><textarea name="mensagem" cols="50" rows="5" placeholder="Digite sua mensagem..." class="form-control" required></textarea>
-			</p>
-			
-			<br><p><h4>Não sou um robô&nbsp;&nbsp;<input type="checkbox" name="verificacao" required></h4></p>
+		<div class="row">
 		
-			<br><p><input type="submit" value="Enviar" class="form-control btn btn-lg btn-outline-dark" id="bt_enviar"></p>
-		
-			<p><input type="reset" value="Cancelar" class="form-control btn btn-lg btn-outline-danger" id="bt_cancelar"></p>
+			<div class="col-3">
 			
+				<nav id="navbarVertical" class="navbar navbar-dark bg-dark">
+				
+					<nav class="nav nav-pills flex-column">
+					
+						<a href="" class="nav-link">Five Nights at Freddy's: Security Breach é adiado</a>
+					
+					</nav>
+				
+				</nav>
 			
+			</div>
+			
+			<div class="col-9">
+			
+				
+			
+			</div>
 		
-		</form>
-		
+		</div>
+	
 	</div>
 	
 <br/><br/>
-	
+	<!--Página-->
+
 	<footer id="rodape" class="footer mt-auto py-3 container-fluid">
 		
-		<div class="row">
+		<div class="container row">
 			
 			<div class="col px-3 pt-3 pb-3">
 	
@@ -207,9 +199,9 @@
 	
 	<!--Scrolltop-->
 	<a href="#" id="scrolltopo" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
-
 	<!--Javascript-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>	
 	<script type="text/javascript" src="js/scrolltop.js"></script>
+	
 </body>
 </html>

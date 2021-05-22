@@ -21,7 +21,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!--CSS Externo-->
-	<link rel="stylesheet" type="text/css" href="css/contato.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pesquisa.css"/>
 	
 	<!--Biblioteca Font Awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -112,7 +112,7 @@
 						
 						<li class="nav-item">
 						
-							<a class="nav-item nav-link active  px-3" href="contato.html">Contato</a>
+							<a class="nav-item nav-link px-3" href="contato.html">Contato</a>
 						
 						</li>
 					
@@ -136,41 +136,24 @@
 	
 <br/><br/>
 	
-	<div id="form_contato" class="container ">
-		
-		<p class="h1 px-2 pt-4">
-			Entre em Contato
-		</p>
-		<br/>
-		
-		<p class="px-2 pt-1" id="form-desc">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et. Integer feugiat diam at neque cursus lacinia.
-		</p>
-		<p class="px-2">
-			loremipsum@loremipsum.com
-		</p>
+	<div class="container bg-light">
 	
-		<form action="../Projeto/php/contatoForm.php" method="post" class="h5 px-2 pt-4 pb-3">
-			<p>Nome: <input type="text" size="50" maxlength="50" name="nome" pattern="[a-zA-Z\s]+$" class="form-control" required></p>
-			
-			<p>Email: <input type="email" size="50" maxlength="40" name="email" class="form-control" required></p>
-			
-			<p>Telefone (Opcional): <input type="telefone" size="38" maxlength="11" name="tel" placeholder="(00) 0-0000-0000" pattern="\(d{2})\d{1}-\d{4}-\d{4}" class="form-control"></p>
-			
-			<p>Mensagem:</p> 						
-			<p><textarea name="mensagem" cols="50" rows="5" placeholder="Digite sua mensagem..." class="form-control" required></textarea>
-			</p>
-			
-			<br><p><h4>Não sou um robô&nbsp;&nbsp;<input type="checkbox" name="verificacao" required></h4></p>
+		<p class="h1 display-1 text-center pt-5 pb-3">
 		
-			<br><p><input type="submit" value="Enviar" class="form-control btn btn-lg btn-outline-dark" id="bt_enviar"></p>
-		
-			<p><input type="reset" value="Cancelar" class="form-control btn btn-lg btn-outline-danger" id="bt_cancelar"></p>
+			Muito obrigado por completar a pesquisa!
 			
+		</p>
+		
+		<p class="display-4  text-center pt-5 pb-3">
+		
+			Clique no botão abaixo para receber seu prêmio!*
 			
+		</p>
 		
-		</form>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><p class="text-center pt-4 pb-3"><input type="button" class="btn btn-dark btn-lg form-control" value="Clique aqui"></p></a>
 		
+		<p id="letras_pequenas">*Só que não</p>
+	
 	</div>
 	
 <br/><br/>
@@ -213,3 +196,4 @@
 	<script type="text/javascript" src="js/scrolltop.js"></script>
 </body>
 </html>
+
