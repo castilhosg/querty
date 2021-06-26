@@ -1,0 +1,76 @@
+//CRIAR O BANCO DE DADOS
+CREATE DATABASE petshop;
+//selecionar o banco
+USE petshop;
+
+//UTF8 ( formato de transformação Unicode de 8 bits ) é uma codificação de caracteres de largura variável capaz de codificar todos os pontos de código de caracteres válidos de 1.112.064
+O InnoDB é o mecanismo de armazenamento mais rápido do MySQL.
+O Latin-1, também chamado ISO-8859-1, é um conjunto de caracteres de 8 bits endossado pela Organização Internacional de Padronização ( ISO ).
+//
+
+//CRIAR A TABELA CLIENTES
+CREATE TABLE cliente(
+	id_cli int PRIMARY KEY AUTO_INCREMENT,
+	nome varchar(50) NOT NULL,
+	endereco varchar(50) NOT NULL,
+	idade int(3) NOT NULL,
+	cpf bigint(12) UNIQUE NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+//CRIAR A TABELA CACHORROS
+CREATE TABLE cachorros(
+	id_cacho int PRIMARY KEY AUTO_INCREMENT,	
+	nome varchar(20) NOT NULL,
+	raca varchar(20) NOT NULL,
+	idade int(2) NOT NULL,
+	pelo varchar(10) NOT NULL,
+	cod_cli int(4),
+constraint fk_cliente foreign key (cod_cli) references cliente (id_cli)
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+
+
+
+//INSERIR DADOS NA TABELA
+INSERT INTO cliente (nome, endereco, idade, cpf) VALUES ('andre', 'venancio', 44, 66666666666); 
+
+INSERT INTO cliente (nome, endereco, idade, cpf) VALUES ('paulo', 'lima', 44, 55555555555), ('arthur', 'andradas', 55, 444444444444);
+
+INSERT INTO 
+cliente
+SET
+id_cli = NULL,
+nome = 'miguel',
+endereco = 'joão pessoa',
+idade = '44',
+cpf = '77777777777';
+
+//para deletar dados de uma tabela
+DELETE FROM  cliente WHERE id_cli = 3 LIMIT 1;
+
+
+Em operações de atualização (UPDATE) e exclusão (DELETE) sempre utilizaremos LIMIT 1, quando a intenção for manipular apenas um registro, pois caso a nossa Query esteja errada e possa vir a perder algum registro, o banco limita a operação a apenas 1 registro.
+
+//atualizar dados da tabela
+UPDATE cliente SET idade = 23 WHERE id_cli = 1;
+
+UPDATE cliente SET nome = 'renato', endereco = 'lima', idade = 43 WHERE id_cli = 1;
+
+//Para adicionar uma coluna em uma tabela
+ALTER TABLE cliente ADD email varchar(255);
+
+ALTER TABLE cliente CHANGE endereco logradouro varchar(255);
+
+//Para excluir uma coluna em uma tabela
+ALTER TABLE cliente DROP COLUMN email;
+
+//selecionar dados da tabela
+SELECT * FROM cliente WHERE id_cli = 2;
+
+//seleciona os dados em ordem alfabética
+SELECT * FROM cliente ORDER BY nome asc;
+
+//Para deletar uma tabela
+DROP TABLE cachorros;
+
+//para deletar um banco de dados
+DROP DATABASE petshop;

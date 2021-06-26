@@ -2,10 +2,11 @@
 
 body{
 
-    background:url("../img/bg1.jpg");
-	background-size: cover;
+    background:url("../img/bg1.jpg");	
+	background-size: contain;	
 	background-color: #2d2d2d;
 	
+	/*color: #ecf0f1; Muda a cor da letra*/
 
 }
 
@@ -16,8 +17,6 @@ html{
 }
 
 /*Header*/
-
-
 
 .topo_nav a{ /*Links hamburguer*/
 
@@ -51,58 +50,31 @@ html{
 	
 }
 
-/*Jumbotron*/
-
-#jumbo1{
+#img-dados{
 	
-	background-image: url("../img/jumbo-her.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: white;
-	text-shadow: 5px 5px 10px black;
-	/*
+	width: inherit;
+	height: inherit;
+	border: solid;
+	border-color: #2d2d2d;
+	border-width: 0.12rem;
+}
+
+
+/*Pesquisa*/
+#pesquisa{
+
 	border-style: solid;
-	border-width: 0.01em;
-	border-color: black;
-	*/
-}
-
-.jumbotron a:link{
-	
-	text-decoration: none;
-	color: white;
-	text-shadow: 2px 2px 10px #2d2d2d;
+	border-width: 0.2rem;
+	border-color: #2d2d2d;
+	text-align: justify;
 	
 }
 
-.jumbotron a:visited {
+#letras_pequenas{
 	
-	text-decoration: none;
-	color: white;
-	text-shadow: 2px 2px 10px #2d2d2d;
+	font-size: 0.6rem;
 	
 }
-
-.jumbotron a:hover {
-	
-	color: #F5F5F5;
-	text-shadow: 2px 2px 10px grey;
-	
-}
-
-.jumbotron a:active {
-	
-	color: white;
-	text-shadow: 2px 2px 10px #2d2d2d;
-	
-}
-
-#titulo1, #leg1, #subt1{
-	
-	background-color: rgba(45, 45, 45, 0.5);
-	
-}
-
 
 /*Scrolltop*/
 
@@ -124,12 +96,12 @@ html{
 }
 
 .js .cd-top--fade-out {
-    opacity: .5
+    opacity: .5;
 }
 
 .js .cd-top--is-visible {
     visibility: visible;
-    opacity: 1
+    opacity: 1;
 }
 
 .js .cd-top {
@@ -152,7 +124,7 @@ html{
     box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
     background-color: #2d2d2d;
-    background-color: #2d2d2d;
+   
 }
 
 /*Footer*/

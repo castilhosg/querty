@@ -2,7 +2,7 @@
 body{
 
     background:url("../img/bg1.jpg");	
-	background-size: cover;	
+	background-size: contain;	
 	background-color: #2d2d2d;
 	
 	/*color: #ecf0f1; Muda a cor da letra*/
@@ -43,19 +43,102 @@ html{
 	
 }
 
+.navbar-custom{
+	
+	background-color: #2d2d2d;
+	
+}
+
+
 /*Carrossel*/
 
-#leg1, #leg2, #leg3, #leg4{
+#leg1, #leg2, #leg3, #leg4, #leg5, #leg1s, #leg2s, #leg3s, #leg4s, #leg5s{
 	
 	background-color: rgba(45, 45, 45, 0.5);
 	
 }
 
-#carrossel{
+#carrossel, carrossel-sm{
 	
 	border-style: solid;
 	border-width: 0.1rem;
 	border-color: #2d2d2d;
+	
+}
+
+#leg1s, #leg2s, #leg3s, #leg4s, #leg5s{
+	
+	font-size: 0.9rem;
+	
+}
+
+
+/*Conteúdo*/
+
+#pagina, #pg1{
+	
+	background-color: #E5E5E5;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-color: #2d2d2d;
+	
+}
+
+#ad-pesquisa{
+	
+	width: 17rem;
+	
+}
+
+/*Jumbotron*/
+
+#jumbo1{
+	
+	background-image: url("../img/jumbo-her.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 5px 5px 10px black;
+	/*
+	border-style: solid;
+	border-width: 0.01em;
+	border-color: black;
+	*/
+}
+
+.jumbotron a:link{
+	
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 10px #2d2d2d;
+	
+}
+
+.jumbotron a:visited {
+	
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 10px #2d2d2d;
+	
+}
+
+.jumbotron a:hover {
+	
+	color: #F5F5F5;
+	text-shadow: 2px 2px 10px grey;
+	
+}
+
+.jumbotron a:active {
+	
+	color: white;
+	text-shadow: 2px 2px 10px #2d2d2d;
+	
+}
+
+#titulo1, #jleg1, #subt1{
+	
+	background-color: rgba(45, 45, 45, 0.5);
 	
 }
 
@@ -76,7 +159,7 @@ html{
     background-color: #2d2d2d;
 	border-style: solid;
 	border-width: 0.1rem;
-	border-color: #6c757d;
+	border-color: #4E4E4E;
 }
 
 .js .cd-top--fade-out {
@@ -115,7 +198,7 @@ html{
 
 #rodape{
 
-    background-color: #6c757d;
+    background-color: #2d2d2d;
 
 }
 

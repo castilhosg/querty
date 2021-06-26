@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"/>
+<meta name="keywords" content=""/>
+<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus interdum tellus, id malesuada tellus faucibus et."/>
+<meta name="language" content="pt-BR"/>
+<meta name="author" content="Guilherme de Castilhos Soares"/>
+<meta name="designer" content="Guilherme de Castilhos Soares"/>
+<meta name="publisher" content="Guilherme de Castilhos Soares"/>
+<meta name="reply-to" content="guilhermescastilhos@gmail.com"/>
+<meta name="owner" content="Guilherme de Castilhos Soares"/>
+<meta name="revisit-after" content="7 days"/>
+	
+<!--Bootstrap-->
+<link href="css/bootstrap.css" rel="stylesheet" />
+<!--<link href="css/bootstrap.min.css" rel="stylesheet"/>-->
+<script src="js/bootstrap.js" type="text/javascript"></script>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+<!--CSS Externo-->
+<link rel="stylesheet" type="text/css" href="css/pesquisa.css"/>
+	
+<!--Biblioteca Font Awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+<!--<link rel="icon" href="img/logo-tab.png">-->
+<link rel="icon" href="../Projeto/img/favicon.ico">
+	
+<title>Projeto UC12 - QUERTY</title>
+</head>
+
+<body>
+	
+	<header>
+	
+	  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom container-fluid">
+			
+			<div class="container-fluid">
+			
+				<a class = "navbar-brand h1 mb-0" href="index.html"><img src="img/logo-querty.png" alt="Logo do site" id="logo-img"></a>
+				
+				<button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target = "#navbarSite">
+				
+					<span class = "navbar-toggler-icon"></span>
+				
+				</button>
+				
+				<div class="collapse navbar-collapse font-weight-bold" id="navbarSite">
+				
+					<ul class="navbar-nav mx-auto">
+					
+						<li class="nav-item">
+						
+							<a class="nav-item nav-link px-3" href="index.html">Home</a> 
+						
+						</li>
+						
+						<li class="nav-item">
+						
+							<a class="nav-item nav-link px-3 " href="noticias.html">Notícias</a>
+						
+						</li>
+						
+						<li class="nav-item">
+						
+							<a class="nav-item nav-link px-3" href="reviews.html">Reviews</a>
+						
+						</li>
+						
+						<li class="nav-item dropdown">
+						
+							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop">RPG</a>
+							
+							<div class="dropdown-menu" href="#">
+								<a href="#" class="dropdown-item">Por onde começar?</a>
+								<a href="#" class = "dropdown-item">10 RPGs de mesa de graça</a>
+								<a href="#" class="dropdown-item">Como jogar RPG de mesa online?</a>
+								<a href="#" class = "dropdown-item">Sistemas mais jogados</a>
+							</div>
+						
+						</li>
+						
+						<li class="nav-item dropdown">
+						
+							<a class="nav-link dropdown-toggle px-3" href="#" data-toggle="dropdown" id="navDrop2">Guias/Tutoriais</a>
+							
+							<div class="dropdown-menu" href="#">
+								<a href="#" class="dropdown-item text-black-50">Dicas - Animal Crossing</a>
+								<a href="#" class="dropdown-item text-black-50">Item teste 2</a>
+								<a href="#" class="dropdown-item text-black-50">Item teste 3</a>
+							</div>
+						
+						</li>
+						
+						<li class="nav-item">
+						
+							<a class="nav-item nav-link px-3" href="videos.html">Vídeos</a>
+						
+						</li>
+						
+						<li class="nav-item">
+						
+							<a class="nav-item nav-link px-3" href="#">Quem Somos</a>
+						
+						</li>
+						
+						<li class="nav-item">
+						
+							<a class="nav-item nav-link px-3" href="contato.html">Contato</a>
+						
+						</li>
+					
+					</ul>
+					
+					<!--<form class="form-inline ml-0 mr-0"> Problema com a navbar/barra de pesquisa
+					
+						<input class="form-control mr-2 ml-2 w-100" type="search" placeholder="Buscar...">
+						
+						<button class="btn btn-dark" type="submit"><span class="fa fa-search"></span></button>
+					
+					</form>-->
+				
+				</div>
+			
+			</div>
+		
+		</nav>
+	
+	</header>
+	
+<br/><br/>
+	
+	<!--Pesquisa-->
+	<div id="pesquisa" class="container form-group bg-light">
+	
+		<p class="h1 pt-4 display-4 text-center">
+			Pesquisa sobre RPG de Mesa
+		</p>
+		
+		<p class="h6 pt-1 text-center">
+			Complete essa pesquisa e receba um prêmio surpresa especial! *
+		</p>
+		
+		<div class="container mw-100 mh-100 pt-4">
+			<img id="img-dados" src="../Projeto/img/dados-crop.jpg" alt=""> <!--Versão mobile?-->
+		</div>
+		
+		<form action="../Projeto/php/pesquisaForm.php" method="post">
+		
+			<p class="pt-4 px-3" id="pg_nome">
+			<label class="h5 pb-2">Nome: </label>
+			<input type="text" size="50" maxlength="50" name="nome" pattern="[a-zA-Z\s]+$" class="form-control" required>
+			</p>
+
+			<p class="pt-2 px-3" id="pg_genero">
+			<label class="h5 pb-2">Gênero: </label>
+
+			<br/>
+			<input type="radio" id="masculino" name="genero" value="masculino">
+				<label for="masculino">Masculino</label>
+			<br/>
+
+			<input type="radio" id="feminino" name="genero" value="feminino">
+				<label for="feminino">Feminino</label>
+			<br/>
+
+			<input type="radio" id="naobinario" name="genero" value="naobinario">
+				<label for="naobinario">Não-binário</label>
+			<br/>
+
+			<input type="radio" id="agenero" name="genero" value="agenero">
+				<label for="agenero">Agênero</label>
+			<br/>
+
+			<input type="radio" id="outro" name="genero" value="outro">
+				<label for="outro">Outro</label>	
+			</p>
+
+			<p class="pt-1 px-3" id="pg_idade">
+			<label class="h5 pb-2s">Idade: </label>
+			<input type="number" size="3" maxlength="3" name="idade" class="form-control" required>
+			</p>
+
+			<p class="pt-1 px-3" id="pg_email">
+			<label class="h5 pb-2s">Email:</label> 
+			<input type="email" size="50" maxlength="40" name="email" class="form-control" required>
+			</p>
+
+			<p class="pt-2 px-3" id="pg_1">
+			<label class="h5 pb-2">Você já jogou RPG de mesa? </label> <!--Ver algo sobre IF-THEN???-->
+
+			<br/>
+			<input type="radio" id="pg1_a" name="pg1" value="sim" required>
+				<label for="pg1_a" class="pr-3">Sim</label>
+
+			<input type="radio" id="pg1_b" name="pg1" value="nao" required>
+				<label for="pg1_b">Não</label>	
+			</p>
+
+			<p class="pt-2 px-3" id="pg_2">
+			<label class="h5 pb-2">Jogou online ou presencial? </label>
+
+			<br/>
+			<input type="radio" id="pg2_a" name="pg2" value="online" required>
+				<label for="pg2_a" class="pr-3">Online</label>
+
+			<input type="radio" id="pg2_b" name="pg2" value="presencial" required>
+				<label for="pg2_b" class="pr-3">Presencial</label>	
+
+			<input type="radio" id="pg2_c" name="pg2" value="nunca_joguei" required>
+				<label for="pg2_c" >Nunca joguei</label>
+			</p>
+
+			<p class="pt-2 px-3" id="pg_3">
+			<label class="h5 pb-2">Se online, jogou através de qual plataforma? </label>
+
+			<br/>
+			<input type="radio" id="pg3_a" name="pg3" value="roll20" required>
+				<label for="pg3_a" class="pr-3">Roll20</label>
+
+			<br/>
+			<input type="radio" id="pg3_b" name="pg3" value="fantasy_grounds" required>
+				<label for="pg3_b">Fantasy Grounds</label>
+				
+			<br/>
+			<input type="radio" id="pg3_c" name="pg3" value="fantasy_grounds" required>
+				<label for="pg3_b">Foundry</label>
+
+			<br/>
+			<input type="radio" id="pg3_d" name="pg3" value="d&d_beyond" required>
+				<label for="pg3_c">D&D Beyond</label>
+
+			<br/>
+			<input type="radio" id="pg3_e" name="pg3" value="tabletop_simulator" required>
+				<label for="pg3_d">Tabletop Simulator</label>
+
+			<br/>
+			<input type="radio" id="pg3_f" name="pg3" value="gm_forge" required>
+				<label for="pg3_e">GM Forge</label>
+
+			<br/>
+			<input type="radio" id="pg3_g" name="pg3" value="outro" required>
+				<label for="pg3_f">Outro</label>
+
+			<br/>
+			<input type="radio" id="pg3_h" name="pg3" value="nunca_joguei" required>
+				<label for="pg3_g" >Nunca joguei</label>
+
+			</p>
+
+			<p class="pt-2 px-3" id="pg_4">
+			<label class="h5 pb-2">Costuma jogar como DM ("Dungeon Master") / Mestre ou como Player? </label>
+
+			<br/>
+			<input type="radio" id="pg4_a" name="pg4" value="dm" required>
+				<label for="pg4_a" class="pr-3">DM / Mestre</label>
+				
+			<br/>
+			<input type="radio" id="pg4_b" name="pg4" value="player" required>
+				<label for="pg4_b" class="pr-3">Player</label>
+			
+			<br/>
+			<input type="radio" id="pg4_c" name="pg4" value="os_dois" required>
+				<label for="pg4_c" class="pr-3">Jogo como os dois</label>
+
+			<br/>
+			<input type="radio" id="pg4_d" name="pg4" value="nunca_joguei" required>
+				<label for="pg4_d" >Nunca joguei</label>
+			</p>
+
+			<p class="pt-2 px-3" id="pg_5">
+			<label class="h5 pb-2">Já tinha jogado antes da pandemia? </label>
+
+			<br/>
+			<input type="radio" id="pg5_a" name="pg5" value="sim" required>
+				<label for="pg5_a" class="pr-3">Sim</label>
+
+			<input type="radio" id="pg5_b" name="pg5" value="nao" required>
+				<label for="pg5_b" class="pr-3">Não</label>
+
+			<input type="radio" id="pg5_c" name="pg5" value="nunca_joguei" required>
+				<label for="pg5_c" >Nunca joguei</label>	
+			</p>
+			
+			<p class="pt-2 px-3" id="pg_6">
+			<label class="h5 pb-2">Com que frequência você joga? </label>
+
+			<br/>
+			<input type="radio" id="pg6_a" name="pg6" value="uma_vez_ou_menos_ao_mes" required>
+				<label for="pg6_a" class="pr-3">Uma vez por mês ou menos</label>
+
+			<br/>
+			<input type="radio" id="pg6_b" name="pg6" value="quinzenalmente" required>
+				<label for="pg6_b">Quinzenalmente</label>
+
+			<br/>
+			<input type="radio" id="pg6_c" name="pg6" value="semanalmente" required>
+				<label for="pg6_c">Semanalmente</label>
+
+			<br/>
+			<input type="radio" id="pg6_d" name="pg6" value="mais_de_uma_vez_semana" required>
+				<label for="pg6_d">Mais de uma vez por semana</label>
+
+			<br/>
+			<input type="radio" id="pg6_e" name="pg6" value="nunca_joguei" required>
+				<label for="pg6_e" >Nunca joguei</label>
+				
+			</p>
+			
+			<p class="pt-2 px-3" id="pg_7">
+			<label class="h5 pb-2">Você fez sua própria ficha de personagem?</label>	
+			<br/>
+			<input type="radio" id="pg7_a" name="pg7" value="sim" required>
+				<label for="pg7_a" class="pr-3">Sim</label>
+
+			<input type="radio" id="pg7_b" name="pg7" value="nao" required>
+				<label for="pg7_b" class="pr-3">Não</label>
+			</p>
+			
+			<p class="pt-2 px-3" id="pg_8">
+			<label class="h5 pb-2">Se sim, utilizou alguma ferramenta para facilitar o processo?</label>	
+			<br/>
+			<input type="radio" id="pg8_a" name="pg8" value="sim">
+				<label for="pg8_a" class="pr-3">Sim</label>
+
+			<input type="radio" id="pg8_b" name="pg8" value="nao">
+				<label for="pg8_b" class="pr-3">Não</label>
+			</p>
+	
+			<!--<p class="pt-2 px-3" id="pg_9">
+			<label for="pg9" class="form-label h5 pb-2">De 0 a 5, quão provável é que você jogue RPG de mesa novamente? </label>
+			<input type="range" class="form-control-range" min="0" max="5" id="pg9">
+			</p>-->
+			
+			<p class="pt-2 px-3" id="pg_9">
+			<label for="pg9" class="form-label h5 pb-2">De 1 a 5, quão provável é que você jogue RPG de mesa novamente? </label>
+			
+			<br/>	
+			<input type="radio" id="pg9_a" name="pg9" value="1" required>
+				<label for="pg9_a" class="pr-3">1 - Nada provável</label>
+			<br/>
+			<input type="radio" id="pg9_b" name="pg9" value="2" required>
+				<label for="pg9_b" class="pr-3">2 - Um pouco improvável</label>
+			<br/>	
+			<input type="radio" id="pg9_c" name="pg9" value="3" required>
+				<label for="pg9_c" class="pr-3">3 - Neutro</label>
+			<br/>
+			<input type="radio" id="pg9_d" name="pg9" value="4" required>
+				<label for="pg9_d" class="pr-3">4 - Um pouco provável</label>
+			<br/>
+			<input type="radio" id="pg9_e" name="pg9" value="5" required>
+				<label for="pg9_e" class="pr-3">5 - Muito provável</label>
+			</p>
+			
+			
+			<p class="pt-2 px-3 pb-2">
+			<label class="h5 pb-1">Gostaria de adicionar alguma coisa?</label>			
+			<textarea name="mensagem" cols="50" rows="5" placeholder="Digite sua mensagem..." class="form-control"></textarea>
+			</p>
+
+			<br/>
+			<input type="submit" name="enviar" value="Enviar" class="btn btn-lg btn-outline-dark col">
+
+		</form>
+		
+		<p id="letras_pequenas" class="px-3 pt-5">
+			* Prêmio fictício.
+		</p>
+
+	</div>
+	
+<br/><br/>
+	
+	<!--Rodapé-->
+	<footer id="rodape" class="footer mt-auto py-3 container-fluid">
+		
+		<div class="row">
+			
+			<div class="col px-3 pt-3 pb-3">
+	
+				<img src="img/logo-tab.png" class="" alt=""> 
+				
+			</div>
+			
+			<div id="rodape-txt" class="col">
+			
+				<p class="px-3 pt-3 text-white">	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus et nesciunt dolores blanditiis architecto consectetur vero inventore, eligendi necessitatibus amet! Nesciunt, laboriosam modi corporis nemo. Officia odit nisi doloremque neque!
+				</p>
+			
+			</div>
+			
+			<div id="social-media">
+			
+				
+			
+			</div>
+			
+		</div>	
+		
+	</footer>
+	
+	<!--Scrolltop-->
+	<a href="#" id="scrolltopo" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+	<!--Javascript-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>	
+	<script type="text/javascript" src="js/scrolltop.js"></script>
+	
+</body>
+</html>
