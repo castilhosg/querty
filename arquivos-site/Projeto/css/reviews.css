@@ -97,12 +97,40 @@ html{
 	
 }
 
-#titulo1, #leg1, #subt1{
+#titulo1, #leg1, #subt1, #titulo2, #leg2, #subt2{
 	
 	background-color: rgba(45, 45, 45, 0.5);
 	
 }
 
+#jumbo2{
+	
+	background-image: url("../img/me3.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 5px 5px 10px black;
+	border-style: solid;
+	border-width: 0.01em;
+	border-color: black;
+	
+}
+
+#fundo{
+	
+	background-color: #E5E5E5;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-color: #2d2d2d;
+}
+
+#esp{
+	
+	margin: 0;
+	width: 100%;
+	border-top: 0.1rem solid #2d2d2d;
+	
+}
 
 /*Scrolltop*/
 
@@ -163,8 +191,44 @@ html{
 
 }
 
+#rodape p{
+
+    color:white;
+
+}
+
 #rodape img{
 	
 	 height: 4rem;
+	
+}
+
+.social i{
+	
+	color: white !important;
+    font-size: 3rem !important;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+.fa-facebook-square:hover{
+	
+	background: #3B5998;
+  	color: white;
+	
+}
+
+.fa-twitter-square:hover{
+	
+	background: #55ACEE;
+  	color: white;
+	
+}
+
+.fa-instagram:hover{
+	
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  	color: white;
 	
 }

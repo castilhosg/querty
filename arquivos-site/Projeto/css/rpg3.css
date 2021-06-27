@@ -1,0 +1,194 @@
+body{
+
+    background:url("../img/bg1.jpg");	
+	background-size: contain;	
+	background-color: #2d2d2d;
+
+}
+
+html{
+	
+	font-size: 1rem;
+
+}
+
+/*Header*/
+
+.topo_nav a{ /*Links hamburguer*/
+
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+}
+
+.topo_nav a.icon{
+
+    background: black;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+#logo-img {
+	
+ 	 height: 3rem;
+	
+}
+
+.navbar-custom{
+	
+	background-color: #2d2d2d;
+	
+}
+
+
+/**/
+#not_1{
+	
+	background-color: #E5E5E5;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-color: #2d2d2d;
+	text-align: justify;
+}
+
+#not_1 a:link{
+	
+	text-decoration: none;
+	text-decoration-color: black;
+	
+}
+
+#not_1 a:visited{
+	
+	text-decoration: none;
+	text-decoration-color: black;
+	
+}
+
+#not_1 a:hover{
+	
+	text-decoration: none;
+	text-decoration-color: black;
+	
+}
+
+#not_1 a:visited{
+	
+	text-decoration: none;
+	text-decoration-color: black;
+	
+}
+
+#not_1 img{
+	
+	width: inherit;
+	
+}
+
+
+/*Scrolltop*/
+
+.scroll {
+    color: #fff;
+    margin-top: 100px
+}
+
+#scrolltopo {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: #2d2d2d;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-color: #4E4E4E;
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: #2d2d2d;
+   
+}
+
+/*Footer*/
+
+#rodape{
+
+    background-color: #2d2d2d;
+
+}
+
+#rodape p{
+
+    color:white;
+
+}
+
+#rodape img{
+	
+	 height: 4rem;
+	
+}
+
+.social i{
+	
+	color: white !important;
+    font-size: 3rem !important;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+.fa-facebook-square:hover{
+	
+	background: #3B5998;
+  	color: white;
+	
+}
+
+.fa-twitter-square:hover{
+	
+	background: #55ACEE;
+  	color: white;
+	
+}
+
+.fa-instagram:hover{
+	
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  	color: white;
+	
+}
